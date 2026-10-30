@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax, .parallax2 {
+    
+    height: 100vh;
+    width: 100vw;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax2 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/30/13/41/egypt-1489010_1280.jpg");
+}
+.parallax {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/estadao/4SCVPVXJ65KHHGKHN74XHXTKQQ.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+}

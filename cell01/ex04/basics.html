@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+        <meta charset="utf-8">
+        <title>Basics</title>
+   </head> 
+   <body>
+          <style>
+               body { /*optei por font-family para escolher a fonte, mas pode ser um font-type tb. E bgc para cor.*/
+                    background-color: #FFC0CB;
+                    font-family: Arial, sans-serif;
+               }
+               h1 {
+                    color: #FFFFFF; /* t.a foi para deixar o texto no centro*/
+                    text-align: center;
+               }
+               h2 {
+                    color: #000000;
+                    text-align: right;
+                    font: 30px monospace; /* aqui define tb tamanho da fonte. */
+                    font-style: italic;
+               }    
+               .container-flex {
+                    display: flex; /* uma flexbox que ajusta o alinhamento */
+                    justify-content: center; 
+                    align-items: center; 
+                    gap: 20px; /* gap vai alterar o espaçamento*/
+               }
+               a {
+                    display: block; 
+                    text-decoration: none; 
+                    color: #0000FF; 
+                    
+               }
+               .bloco-item {
+                    width: 800px; 
+                    text-align: center; 
+               }
+          </style>    
+     <h1> Bocadinhas Shop! </h1>
+     <div class="container-flex">
+
+     <div class="bloco-item">
+          <img src="/home/caido-na/Downloads/Ca_m15a4.jpg" width="700" height="700">
+          <a href="https://www.lojadacarabina.com.br/airsoft.html"> AirSoft - Buy Here</a>
+     </div>
+     
+     <div class="bloco-item">
+          <img src="/home/caido-na/Downloads/images.jpeg"  width="700" height="700">
+          <a href="https://lullyhair.com.br/compra-venda-cabelos-naturais/"> Hair Free - get it now!</a>
+     </div>
+     </div>
+     <hr>
+     <h2> © caido-na 2024 </h2>
+   </body>
+</html>   
